@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -17,9 +16,9 @@ export default function Hero() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid gap-8 lg:grid-cols-12 lg:gap-10 items-center" style={{ animation: "fade-in 600ms ease 1 both" }}>
           <div className="lg:col-span-7">
-            <p className="text-6xl sm:text-6xl font-semibold tracking-[-0.02em] text-black/60 dark:text-white/60">Hi, I'm Oluwadara.</p>
+            <p className="text-6xl sm:text-6xl font-semibold tracking-[-0.02em] text-black/60 dark:text-white/60">Hi, I&apos;m Oluwadara.</p>
             <h1 className="mt-3 text-3xl sm:text-4xl font-semibold leading-tight tracking-[-0.02em] bg-clip-text text-transparent bg-[linear-gradient(90deg,theme(colors.indigo.500),theme(colors.sky.500),theme(colors.emerald.500))] bg-[length:200%_100%]" style={{ animation: "gradient-x 8s ease-in-out infinite" }}>
-              I'm a full‑stack engineer good at crafting delightful frontends and robust backends
+              I&apos;m a full‑stack engineer good at crafting delightful frontends and robust backends
             </h1>
             <p className="mt-5 text-2xl sm:text-2xl text-black/70 dark:text-white/70 max-w-2xl">
               I build product experiences end‑to‑end from design‑system driven UIs to scalable APIs, CI/CD, and cloud infra.
