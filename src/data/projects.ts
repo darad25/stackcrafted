@@ -11,8 +11,8 @@ export const projects: Project[] = [
     links: [{ label: "Live", href: "https://apps.apple.com/us/app/steezely-virtual-try-on/id6745189848" }],
     period: { year: "2025" },
     highlights: [
-      "Developed an AI-driven virtual try-on platform that helps users visualize fashion items before purchasing", 
-    ], 
+      "Developed an AI-driven virtual try-on platform that helps users visualize fashion items before purchasing",
+    ],
   },
   {
     slug: "Steezely – AI Virtual Try-On",
@@ -24,8 +24,23 @@ export const projects: Project[] = [
     links: [{ label: "Live", href: "https://steezely.com" }],
     period: { year: "2025" },
     highlights: [
-      "Developed an AI-driven virtual try-on platform that helps users visualize fashion items before purchasing", 
-    ], 
+      "Developed an AI-driven virtual try-on platform that helps users visualize fashion items before purchasing",
+    ],
+  },
+  {
+    slug: "E-Commerce Web Application",
+    title: "E-Commerce Web Application",
+    description:
+      "Developed a dynamic and responsive e-commerce platform using React.js, Node.js, and JavaScript.",
+    role: "fullstack",
+    tags: ["React.js", "JavaScript", "Node Js"],
+    links: [
+      { label: "Live", href: "https://fashion-ecommerce-web.netlify.app/" },
+      { label: "Code", href: "https://github.com/darad25/Fashion-ecommerce" }],
+    period: { year: "2022" },
+    highlights: [
+      "Developed a dynamic and responsive e-commerce platform using React.js, Node.js, and JavaScript.",
+    ],
   },
   {
     slug: "CredaTech Hub",
@@ -37,22 +52,7 @@ export const projects: Project[] = [
     links: [{ label: "Live", href: "https://credatechhub.com" }],
     period: { year: "2025" },
     highlights: [
-      "Developed an interactive web platform that allows users to sign up for UI/UX design classes and access learning resources seamlessly.", 
-    ], 
-  },
-  {
-    slug: "E-Commerce Web Application",
-    title: "E-Commerce Web Application",
-    description:
-      "Developed a dynamic and responsive e-commerce platform using React.js, Node.js, and JavaScript.",
-    role: "fullstack",
-    tags: ["React.js", "JavaScript", "Node Js"],
-    links: [
-      { label: "Live", href: "https://quiet-dolphin-586474.netlify.app/" },
-      { label: "Code", href: "https://github.com/darad25/ReactJS-for-Fashion-Ecommerce-website" }],
-    period: { year: "2022" },
-    highlights: [
-      "Developed a dynamic and responsive e-commerce platform using React.js, Node.js, and JavaScript.",
+      "Developed an interactive web platform that allows users to sign up for UI/UX design classes and access learning resources seamlessly.",
     ],
   },
   {
