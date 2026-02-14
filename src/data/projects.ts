@@ -46,7 +46,7 @@ export const projects: Project[] = [
     slug: "Aura-Analytics-dashboard",
     title: "Aura Analytics Dashboard",
     description:
-      "A high-fidelity, performance-optimized analytics platform built with Next.js 16 and React 19, featuring real-time monitoring and advanced data visualization.",
+      "A high fidelity, performance optimized analytics platform, real time monitoring and data visualization.",
     role: "fullstack",
     tags: ["Next.js", "React 19", "Recharts", "Vanilla CSS", "Lucide React"],
     links: [
