@@ -47,7 +47,7 @@ export const projects: Project[] = [
     title: "Aura Analytics Dashboard",
     description:
       "A high fidelity, performance optimized analytics platform, real time monitoring and data visualization.",
-    role: "fullstack",
+    role: "frontend",
     tags: ["Next.js", "React 19", "Recharts", "Vanilla CSS", "Lucide React"],
     links: [
       { label: "Live", href: "https://user-analytic.netlify.app/" },
