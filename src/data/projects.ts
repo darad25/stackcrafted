@@ -43,6 +43,21 @@ export const projects: Project[] = [
     ],
   },
   {
+    slug: "Aura-Analytics-dashboard",
+    title: "Aura Analytics Dashboard",
+    description:
+      "A high-fidelity, performance-optimized analytics platform built with Next.js 16 and React 19, featuring real-time monitoring and advanced data visualization.",
+    role: "fullstack",
+    tags: ["Next.js", "React 19", "Recharts", "Vanilla CSS", "Lucide React"],
+    links: [
+      { label: "Live", href: "https://user-analytic.netlify.app/" },
+      { label: "Code", href: "https://github.com/darad25/analytics" }],
+    period: { year: "2025" },
+    highlights: [
+      "A high-fidelity, performance-optimized analytics platform built with Next.js 16 and React 19, featuring real-time monitoring and advanced data visualization.",
+    ],
+  },
+  {
     slug: "CredaTech Hub",
     title: "CredaTech Hub",
     description:
