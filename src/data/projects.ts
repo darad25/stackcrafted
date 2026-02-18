@@ -58,6 +58,21 @@ export const projects: Project[] = [
     ],
   },
   {
+    slug: "Daily-Path-gamified-productivity",
+    title: "Daily Path for web",
+    description:
+      "An immersive, RPG-inspired productivity engine. Transmute daily disciplines into legendary progress through an evolving quest map and mastery-based growth system.",
+    role: "frontend",
+    tags: ["React 19", "Vite", "Framer Motion", "Vanilla CSS", "Lucide React", "Canvas Confetti"],
+    links: [
+      { label: "Live", href: "https://daily-path.netlify.app/" },
+      { label: "Code", href: "https://github.com/darad25/gamified-app" }],
+    period: { year: "2025" },
+    highlights: [
+      "An immersive, RPG-inspired productivity engine. Transmute daily disciplines into legendary progress through an evolving quest map and mastery-based growth system.",
+    ],
+  },
+  {
     slug: "CredaTech Hub",
     title: "CredaTech Hub",
     description:
