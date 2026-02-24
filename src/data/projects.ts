@@ -87,29 +87,29 @@ export const projects: Project[] = [
       "An immersive, RPG-inspired productivity engine. Transmute daily disciplines into legendary progress through an evolving quest map and mastery-based growth system.",
     ],
   },
-  {
-    slug: "CredaTech Hub",
-    title: "CredaTech Hub",
-    description:
-      "Developed an interactive web platform that allows users to sign up for a UI/UX design bootcamp.",
-    role: "frontend",
-    tags: ["Next Js", "Node Js", "TypeScript", "Tailwind CSS"],
-    links: [{ label: "Live", href: "https://credatechhub.com" }],
-    period: { year: "2025" },
-    highlights: [
-      "Developed an interactive web platform that allows users to sign up for UI/UX design classes and access learning resources seamlessly.",
-    ],
-  },
-  {
-    slug: "Real Estate Website",
-    title: "Real Estate Website",
-    description: "Built a single-page real estate website with a clean, responsive layout.",
-    role: "frontend",
-    tags: ["Next Js", "Node Js", "TypeScript", "Tailwind CSS"],
-    links: [
-      { label: "Live", href: "https://realestate44.netlify.app/" }],
-    period: { year: "2022" },
-  },
+  // {
+  //   slug: "CredaTech Hub",
+  //   title: "CredaTech Hub",
+  //   description:
+  //     "Developed an interactive web platform that allows users to sign up for a UI/UX design bootcamp.",
+  //   role: "frontend",
+  //   tags: ["Next Js", "Node Js", "TypeScript", "Tailwind CSS"],
+  //   links: [{ label: "Live", href: "https://credatechhub.com" }],
+  //   period: { year: "2025" },
+  //   highlights: [
+  //     "Developed an interactive web platform that allows users to sign up for UI/UX design classes and access learning resources seamlessly.",
+  //   ],
+  // },
+  // {
+  //   slug: "Real Estate Website",
+  //   title: "Real Estate Website",
+  //   description: "Built a single-page real estate website with a clean, responsive layout.",
+  //   role: "frontend",
+  //   tags: ["Next Js", "Node Js", "TypeScript", "Tailwind CSS"],
+  //   links: [
+  //     { label: "Live", href: "https://realestate44.netlify.app/" }],
+  //   period: { year: "2022" },
+  // },
 ];
 
 
