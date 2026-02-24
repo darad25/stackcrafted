@@ -61,7 +61,7 @@ export const projects: Project[] = [
     slug: "e-commerce-ops-console",
     title: "E-Commerce Ops Console",
     description:
-      "A professional internal dashboard for managing e-commerce operations, featuring real-time analytics, order tracking and inventory management.",
+      "A professional internal dashboard for managing e-commerce operations, featuring real time analytics, order tracking and inventory management.",
     role: "fullstack",
     tags: ["React 19", "TypeScript", "Vite", "Operational UI"],
     links: [
@@ -76,7 +76,7 @@ export const projects: Project[] = [
     slug: "Daily-Path-gamified-productivity",
     title: "Daily Path for web",
     description:
-      "An immersive, RPG-inspired productivity engine. Transmute daily disciplines into legendary progress.",
+      "An immersive, RPG inspired productivity engine. Transmute daily disciplines into legendary progress.",
     role: "frontend",
     tags: ["React 19", "Vite", "Framer Motion", "Vanilla CSS", "Lucide React", "Canvas Confetti"],
     links: [
