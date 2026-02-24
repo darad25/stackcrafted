@@ -58,6 +58,21 @@ export const projects: Project[] = [
     ],
   },
   {
+    slug: "e-commerce-ops-console",
+    title: "E-Commerce Ops Console",
+    description:
+      "A professional internal dashboard for managing e-commerce operations, featuring real-time analytics, order tracking and inventory management.",
+    role: "fullstack",
+    tags: ["React 19", "TypeScript", "Vite", "Operational UI"],
+    links: [
+      { label: "Live", href: "https://operation-console.netlify.app/" },
+      { label: "Code", href: "https://github.com/darad25/ops-console" }],
+    period: { year: "2025" },
+    highlights: [
+      "A professional internal dashboard for managing e-commerce operations, featuring real-time analytics, order tracking and inventory management.",
+    ],
+  },
+  {
     slug: "Daily-Path-gamified-productivity",
     title: "Daily Path for web",
     description:
