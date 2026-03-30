@@ -7,25 +7,26 @@ export default function Home() {
   return (
     <div>
       <Hero />
-      <section id="skills" className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-0 sm:pt-0 pb-10 sm:pb-14 -mt-6 sm:-mt-10"> 
+      <section id="skills" className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-0 sm:pt-0 pb-10 sm:pb-14 -mt-6 sm:-mt-10">
         <h2 className="text-3xl sm:text-3xl font-semibold tracking-tight" style={{ animation: "fade-in 500ms ease 1 both" }}>Skills</h2>
         <div className="-mt-1 sm:-mt-2 grid gap-0 sm:gap-0 grid-cols-3 sm:grid-cols-6 lg:grid-cols-7 justify-items-start -ml-5 sm:-ml-6">
-          {[  
-            "/NextJs.png",  
-            "/Flutter.png", 
-            "/Html.png", 
+          {[
+            "/NextJs.png",
+            "/Flutter.png",
+            "/Html.png",
             "/AI.png",
             "/TS.png",
             "/React.png",
             "/css.png",
             "/Java.png",
             "/nodejs.png",
+            "/Python.png"
           ].map((src, i) => (
-            <div key={src} className="flex items-start justify-start w-full m-0 p-0" style={{ animation: "fade-in-up 500ms ease 1 both", animationDelay: `${i*60}ms` }}>
+            <div key={src} className="flex items-start justify-start w-full m-0 p-0" style={{ animation: "fade-in-up 500ms ease 1 both", animationDelay: `${i * 60}ms` }}>
               <Image src={src} alt="Skill" width={850} height={850} className="block w-full h-auto hover-bounce" />
             </div>
           ))}
-        </div>  
+        </div>
       </section>
 
       <section id="projects" className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10 sm:py-14">
@@ -42,7 +43,7 @@ export default function Home() {
             </div>
           ))}
         </div>
-      </section> 
+      </section>
 
       <section id="experience" className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10 sm:py-14">
         <h2 className="text-xl sm:text-3xl font-semibold tracking-tight" style={{ animation: "fade-in 500ms ease 1 both" }}>Experience</h2>
@@ -98,7 +99,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="contact" className="mr-auto max-w-3xl px-4 sm:px-1 lg:px-8 py-10 sm:py-14"> 
+      <section id="contact" className="mr-auto max-w-3xl px-4 sm:px-1 lg:px-8 py-10 sm:py-14">
         <h2 className="text-xl sm:text-3xl font-semibold tracking-tight ">Contact</h2>
         <div className="mt-6 grid grid-cols-2 gap-2 items-start">
           <div className="card-surface p-3 text-sm neon-border rounded-xl w-full sm:w-[200px] hover-bounce" style={{ borderColor: "#08c0fc", borderWidth: "3px", borderStyle: "solid" }}>

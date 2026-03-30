@@ -87,6 +87,20 @@ export const projects: Project[] = [
       "An immersive, RPG-inspired productivity engine. Transmute daily disciplines into legendary progress through an evolving quest map and mastery-based growth system.",
     ],
   },
+  {
+    slug: "python-data-analytics-suite",
+    title: "Python Data Analytics and ML Suite",
+    description:
+      "A comprehensive collection of data science projects and automated scripts focusing on deep data insights, statistical modeling, and computer vision.",
+    role: "Data Scientist / Backend Developer",
+    tags: ["Python", "Pandas", "Matplotlib", "Seaborn", "Scikit-learn", "OpenCV"],
+    links: [{ label: "Code", href: "https://github.com/darad25/PythonFiles" }],
+    period: { year: "2026" },
+    highlights: [
+      "Engineered data pipelines to analyze complex datasets, including Olympic historical trends, COVID-19 global statistics, IPL auction data and athlete performance using Pandas and NumPy.",
+    ],
+  },
+
   // {
   //   slug: "CredaTech Hub",
   //   title: "CredaTech Hub",
