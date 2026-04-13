@@ -33,7 +33,7 @@ export default function Home() {
         <div className="mb-6 flex items-end justify-between" style={{ animation: "fade-in 500ms ease 1 both" }}>
           <div>
             <h2 className="text-xl sm:text-3xl font-semibold tracking-tight">Projects</h2>
-            <p className="text-sm text-black/70 dark:text-white/70">Frontend, backend, and full‑stack highlights</p>
+            <p className="text-sm text-white/70">Frontend, backend, and full‑stack highlights</p>
           </div>
         </div>
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
@@ -52,9 +52,9 @@ export default function Home() {
           <div className="card-surface p-5 neon-border rounded-xl" style={{ animation: "fade-in-up 500ms ease 1 both", borderColor: "#08c0fc", borderWidth: "3px", borderStyle: "solid" }}>
             <div className="flex flex-col sm:flex-row items-start sm:items-center justify-start sm:justify-between gap-1 sm:gap-0 text-sm">
               <div className="font-medium">Steezely, Inc.  • Full-Stack Developer</div>
-              <div className="text-black/60 dark:text-white/60">2025 — Present</div>
+              <div className="text-white/60">2025 — Present</div>
             </div>
-            <ul className="mt-2 list-disc list-outside pl-6 sm:pl-8 text-sm text-black/80 dark:text-white/80">
+            <ul className="mt-2 list-disc list-outside pl-6 sm:pl-8 text-sm text-white/80">
               <li>Co-founded Steezely, an AI-powered virtual try-on app that helps users visualize how fashion items will look on them before purchasing.</li>
               <li>Collaborated with two team members to design, develop and launch the website and mobile app, currently available on the App store and Google play store.</li>
               <li>Built the Steezely website and blog using Next.js, featuring responsive layouts, SEO optimization and user-centered content strategy to drive traffic and engagement.</li>
@@ -64,9 +64,9 @@ export default function Home() {
           <div className="card-surface p-5 neon-border rounded-xl" style={{ animation: "fade-in-up 500ms ease 1 both", borderColor: "#08c0fc", borderWidth: "3px", borderStyle: "solid" }}>
             <div className="flex flex-col sm:flex-row items-start sm:items-center justify-start sm:justify-between gap-1 sm:gap-0 text-sm">
               <div className="font-medium">Freelance Mobile and Full-stack Developer</div>
-              <div className="text-black/60 dark:text-white/60">January 2022 — December 2024</div>
+              <div className="text-white/60">January 2022 — December 2024</div>
             </div>
-            <ul className="mt-2 list-disc list-outside pl-6 sm:pl-8 text-sm text-black/80 dark:text-white/80">
+            <ul className="mt-2 list-disc list-outside pl-6 sm:pl-8 text-sm text-white/80">
               <li>Collaborated as part of a dynamic team to build a comprehensive Flutter application tailored for both artificial intelligence and pharmaceutical companies.</li>
               <li>Designed and implemented intuitive, responsive user interfaces using Flutter’s widget system, ensuring a seamless user experience across devices.</li>
               <li> Engineered a scalable and secure database architecture to support real-time data management, catering to the diverse data requirements of AI analytics and pharmaceutical compliance.</li>
@@ -76,9 +76,9 @@ export default function Home() {
           <div className="card-surface p-5 neon-border rounded-xl" style={{ animation: "fade-in-up 500ms ease 1 both", borderColor: "#08c0fc", borderWidth: "3px", borderStyle: "solid" }}>
             <div className="flex flex-col sm:flex-row items-start sm:items-center justify-start sm:justify-between gap-1 sm:gap-0 text-sm">
               <div className="font-medium">Techno theory Technologies  • Software Engineer</div>
-              <div className="text-black/60 dark:text-white/60">January 2020 — January 2022</div>
+              <div className="text-white/60">January 2020 — January 2022</div>
             </div>
-            <ul className="mt-2 list-disc list-outside pl-6 sm:pl-8 text-sm text-black/80 dark:text-white/80">
+            <ul className="mt-2 list-disc list-outside pl-6 sm:pl-8 text-sm text-white/80">
               <li>Developed and maintained a backend infrastructure using React JS, Css, ensuring secure, interactive, reliable frontend processes for 55,000 customers.</li>
               <li>Developed the React Js front end for several payment integrations, ensuring seamless transaction processing with cloud optimization.</li>
               <li>Optimized database performance for mongodb databases, resulting in improved query response times and faster application performance, improving response time by 70%.</li>
@@ -88,9 +88,9 @@ export default function Home() {
           <div className="card-surface p-5 neon-border rounded-xl" style={{ animation: "fade-in-up 500ms ease 1 both", animationDelay: "80ms", borderColor: "#08c0fc", borderWidth: "3px", borderStyle: "solid" }}>
             <div className="flex flex-col sm:flex-row items-start sm:items-center justify-start sm:justify-between gap-1 sm:gap-0 text-sm">
               <div className="font-medium">The25 technologies • Fullstack Engineer</div>
-              <div className="text-black/60 dark:text-white/60">July 2019 — December 2019</div>
+              <div className="text-white/60">July 2019 — December 2019</div>
             </div>
-            <ul className="mt-2 list-disc list-outside pl-6 sm:pl-8 text-sm text-black/80 dark:text-white/80">
+            <ul className="mt-2 list-disc list-outside pl-6 sm:pl-8 text-sm text-white/80">
               <li>Integrated with payment providers to enable payment processing via various payment methods, such as credit cards, bank transfers, and digital wallets.</li>
               <li>Implemented automated testing and monitoring solutions to ensure the high availability and fault tolerance of the frontend infrastructure, reducing downtime and improving system reliability.</li>
               <li>Created and maintained automated testing, deployment pipelines improving the efficiency and reliability of software releases.</li>

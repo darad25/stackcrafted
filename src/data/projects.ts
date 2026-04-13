@@ -93,13 +93,27 @@ export const projects: Project[] = [
     description:
       "A comprehensive collection of data science projects and automated scripts focusing on deep data insights, statistical modeling, and computer vision.",
     role: "Data Scientist / Backend Developer",
-    tags: ["Python", "Pandas", "Matplotlib", "Seaborn", "Scikit-learn", "OpenCV"],
+    tags: ["Python", "Tableau", "Pandas", "Matplotlib", "Seaborn", "Scikit-learn", "OpenCV"],
     links: [{ label: "Code", href: "https://github.com/darad25/PythonFiles" }],
     period: { year: "2026" },
     highlights: [
       "Engineered data pipelines to analyze complex datasets, including Olympic historical trends, COVID-19 global statistics, IPL auction data and athlete performance using Pandas and NumPy.",
     ],
   },
+  {
+    slug: "trademl-autonomous-committee",
+    title: "Autonomous 3-Stage Committee Trading Engine",
+    description:
+      "A high performance cryptocurrency trading engine featuring a 3-stage Machine Learning committee architecture for risk mitigated autonomous execution.",
+    role: "Machine Learning",
+    tags: ["Python", "Scikit-learn", "Binance API", "Pandas", "NumPy", "Random Forest", "Feature Engineering"],
+    links: [{ label: "Code", href: "https://github.com/darad25/Trade-machine-learning" }],
+    period: { year: "2026" },
+    highlights: [
+      "Engineered a unique 3-stage 'Committee' architecture (Scout, Auditor, Judge) that mandates consensus among specialized LR and RF models to filter false signals and mitigate variance.",
+    ],
+  }
+
 
   // {
   //   slug: "CredaTech Hub",

@@ -43,7 +43,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <header className={`sticky top-0 z-50 w-full border-b border-black/10 dark:border-white/10 backdrop-blur-md supports-[backdrop-filter]:bg-background/10 ${scrolled ? "bg-background/20" : "bg-transparent"}`}>
+    <header className={`sticky top-0 z-50 w-full border-b border-white/10 backdrop-blur-md supports-[backdrop-filter]:bg-background/10 ${scrolled ? "bg-background/20" : "bg-transparent"}`}>
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <nav className="hidden md:flex items-center justify-center gap-44 text-[17px] tracking-[0.18em] uppercase">
@@ -59,7 +59,7 @@ export default function Navbar() {
           </nav>
           <button
             aria-label="Toggle Menu"
-            className="md:hidden inline-flex items-center justify-center rounded-md p-2 hover:bg-black/5 dark:hover:bg-white/5"
+            className="md:hidden inline-flex items-center justify-center rounded-md p-2 hover:bg-white/5"
             onClick={() => setOpen((v) => !v)}
           >
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" className="text-foreground">

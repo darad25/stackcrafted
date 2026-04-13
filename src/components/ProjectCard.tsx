@@ -21,15 +21,15 @@ export default function ProjectCard({ project }: { project: Project }) {
         <div className="flex items-center justify-between gap-3">
           <h3 className="text-base sm:text-lg font-semibold tracking-tight">{title}</h3>
           {role ? (
-            <span className="text-[10px] uppercase tracking-widest rounded-full border border-black/10 dark:border-white/15 px-2 py-0.5 text-black/70 dark:text-white/70">
+            <span className="text-[10px] uppercase tracking-widest rounded-full border border-white/15 px-2 py-0.5 text-white/70">
               {role}
             </span>
           ) : null}
         </div>
-        <p className="mt-2 text-sm text-black/70 dark:text-white/70 line-clamp-3">{description}</p>
+        <p className="mt-2 text-sm text-white/70 line-clamp-3">{description}</p>
         <div className="mt-3 flex flex-wrap gap-2">
           {tags.map((t) => (
-            <span key={t} className="text-[11px] rounded-full border border-black/10 dark:border-white/15 px-2 py-0.5 text-black/70 dark:text-white/70">
+            <span key={t} className="text-[11px] rounded-full border border-white/15 px-2 py-0.5 text-white/70">
               {t}
             </span>
           ))}
